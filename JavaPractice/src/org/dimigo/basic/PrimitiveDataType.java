@@ -11,6 +11,7 @@ public class PrimitiveDataType {
 		char bloodType = 'A';
 		
 		System.out.println("<< 아이유 프로필 >>");
+		System.out.println("이름 : " + name);
 		if(gender) {
 			System.out.println("성별 : 여자");
 		} else {
