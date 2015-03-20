@@ -12,21 +12,19 @@ public class Operator {
 		double bArea = b1*b2;
 		String aName = "사다리꼴";
 		String bName = "평행사변형";
-		String area = "넓이";
-		String bigger = " 더 큽니다";
 		
 		System.out.println("<< 도형 넓이 비교 >> ");
-		System.out.println(aName + " " + area + " : " + aArea);
-		System.out.println(bName + " " + area + " : " + bArea + "\n");
+		System.out.println(aName + " 넓이 : " + aArea);
+		System.out.println(bName + " 넓이 : " + bArea + "\n");
 		
 		if(aArea > bArea) {
-			System.out.println(aName + "이 " + bName + " 보다 " + (aArea - bArea) + bigger);
+			System.out.println(aName + "이 " + bName + " 보다 " + (aArea - bArea) + " 더 큽니다");
 		}
 		else if(aArea == bArea) {
 			System.out.println(aName + "과 " + bName + " 넓이가 같습니다");
 		}
 		else {
-			System.out.println(bName + "이 " + aName + " 보다 " + (bArea - aArea) + bigger);
+			System.out.println(bName + "이 " + aName + " 보다 " + (bArea - aArea) + " 더 큽니다");
 		}
 		
 
