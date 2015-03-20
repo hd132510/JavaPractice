@@ -4,7 +4,7 @@ public class TypeCasting {
 
 	public static void main(String[] args) {
 		int salary = 1700000;
-		byte clerkNum = 3;
+		byte clerkNum = 3;  
 		int num = 1500;
 		long yearlySalary = (long) salary * 12 * clerkNum * num;
 	
