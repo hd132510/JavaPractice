@@ -22,7 +22,7 @@ public class Question {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		String singer = "빅뱅";
-		String actor = "조인성"; 
+		String actor = "조인성";
 		String subject = "자바";
 		
 		System.out.println("가장 좋아하는 가수는?");
