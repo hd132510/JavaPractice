@@ -28,10 +28,10 @@ public class SnackTest {
 		
 		for(Snack value : snackArr) {
 			value.printSnack();
-			sum += value.getPrice() * value.getNum();
+			sum += value.calcPrice();
 		}
+		
 		System.out.println("총 구매 금액 : " + String.format("%,d", sum) + "원");
-
 	}
 
 }

@@ -36,6 +36,10 @@ public class Snack {
 		System.out.println("개수 : " + num + "개");
 		System.out.println();
 	}
+	
+	public int calcPrice() {
+		return price * num;
+	}
 
 	/**
 	 * @return the name
