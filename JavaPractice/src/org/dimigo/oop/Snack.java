@@ -17,19 +17,19 @@ package org.dimigo.oop;
  */
 public class Snack {
 
-	private String name;
+	private String name;		// 변수 선언
 	private String company;
 	private int price;
 	private int num;
 	
-	public Snack(String name, String company, int price, int num) {
+	public Snack(String name, String company, int price, int num) {		// 생성자
 		this.name = name;
 		this.company = company;
 		this.price = price;
 		this.num = num;
 	}
 	
-	public void printSnack() {
+	public void printSnack() {		// 스낵 정보 출력
 		System.out.println("이름 : " + name);
 		System.out.println("제조사 : " + company);
 		System.out.println("가격 : " + String.format("%,d", price) + "원");
@@ -37,7 +37,7 @@ public class Snack {
 		System.out.println();
 	}
 	
-	public int calcPrice() {
+	public int calcPrice() {		// 금액 * 수량 계산
 		return price * num;
 	}
 
