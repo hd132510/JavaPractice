@@ -24,6 +24,8 @@ public class PiggyBankTest {
 				new FamilyMember("남동생")
 		};
 		
+		FamilyMember.printMember();
+		
 		PiggyBank.putMoney(f[0], 10000);
 		PiggyBank.putMoney(f[1], 5000);
 		PiggyBank.putMoney(f[2], 2000);
