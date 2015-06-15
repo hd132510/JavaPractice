@@ -16,7 +16,7 @@ package org.dimigo.oop;
  * @version		: 1.0
  */
 public class FamilyMember {
-	private static int memberCnt = 0;
+	private static int memberCnt;
 	private String memberName;
 	
 	public FamilyMember(String memberName) {
