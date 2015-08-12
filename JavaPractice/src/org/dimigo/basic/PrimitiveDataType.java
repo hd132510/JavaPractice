@@ -3,24 +3,24 @@ package org.dimigo.basic;
 public class PrimitiveDataType {
 
 	public static void main(String[] args) {
-		String name = "¾ÆÀÌÀ¯";
+		String name = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
 		boolean gender = true;
 		int age = 23;
-		double height = 161.8;
+		double height = 161.8D;
 		float weigh = 44.3F;
 		char bloodType = 'A';
 		
-		System.out.println("<< ¾ÆÀÌÀ¯ ÇÁ·ÎÇÊ >>");
-		System.out.println("ÀÌ¸§ : " + name);
+		System.out.println("<< ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ >>");
+		System.out.println("ï¿½Ì¸ï¿½ : " + name);
 		if(gender) {
-			System.out.println("¼ºº° : ¿©ÀÚ");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ : ï¿½ï¿½ï¿½ï¿½");
 		} else {
-			System.out.println("¼ºº° : ³²ÀÚ");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ : ï¿½ï¿½ï¿½ï¿½");
 		}
-		System.out.printf("³ªÀÌ : %d¼¼\n", age);
+		System.out.printf("ï¿½ï¿½ï¿½ï¿½ : %dï¿½ï¿½\n", age);
 		System.out.printf("Å° : %.1fcm\n", height);
-		System.out.printf("¸ö¹«°Ô : %.1fkg\n", weigh);
-		System.out.printf("Ç÷¾×Çü : %cÇü\n", bloodType);
+		System.out.printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ : %.1fkg\n", weigh);
+		System.out.printf("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ : %cï¿½ï¿½\n", bloodType);
 
 	}
 

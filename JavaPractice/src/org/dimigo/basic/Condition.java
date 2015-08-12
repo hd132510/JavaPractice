@@ -4,34 +4,34 @@ public class Condition {
 
 	public static void main(String[] args) {
 		int distance = 10;
-		String car = "°í¼Ó¹ö½º";
+		String car = "ï¿½ï¿½Ó¹ï¿½ï¿½ï¿½";
 		int fee;
 		
 		if(distance <= 0) {
-			System.out.println("°Å¸®°¡ ÀÌ»óÇÕ´Ï´Ù.");
+			System.out.println("ï¿½Å¸ï¿½ï¿½ï¿½ ï¿½Ì»ï¿½ï¿½Õ´Ï´ï¿½.");
 			return;
 		}
 		
-		System.out.println("<< °í¼Óµµ·Î ÅëÇà·á °è»ê >>");
-		System.out.println("°Å¸® : " + distance + "km");
-		System.out.println("Â÷Á¾ : " + car);
-		System.out.printf("ÅëÇà·á : ");
+		System.out.println("<< ï¿½ï¿½Óµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ >>");
+		System.out.println("ï¿½Å¸ï¿½ : " + distance + "km");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ : " + car);
+		System.out.printf("ï¿½ï¿½ï¿½ï¿½ï¿½ : ");
 		
 		switch(car) {
-		case "°í¼Ó¹ö½º":
+		case "ï¿½ï¿½Ó¹ï¿½ï¿½ï¿½":
 			fee = 850 + (distance-1) / 10 * 300;
-			System.out.println(fee + "¿ø");
+			System.out.println(fee + "ï¿½ï¿½");
 			break;
-		case "°æÂ÷":
+		case "ï¿½ï¿½ï¿½ï¿½":
 			fee = 300 + (distance-1) / 10 * 200;
-			System.out.println(fee + "¿ø");
+			System.out.println(fee + "ï¿½ï¿½");
 			break;
-		case "±× ¿Ü":
+		case "ï¿½ï¿½ ï¿½ï¿½":
 			fee = 600 + (distance-1) / 10 * 200;
-			System.out.println(fee + "¿ø");
+			System.out.println(fee + "ï¿½ï¿½");
 			break;
 		default:
-			System.out.println("°è»ê ºÒ°¡");
+			System.out.println("ï¿½ï¿½ï¿½ ï¿½Ò°ï¿½");
 		}
 
 	}

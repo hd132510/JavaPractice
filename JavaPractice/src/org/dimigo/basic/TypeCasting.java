@@ -3,16 +3,16 @@ package org.dimigo.basic;
 public class TypeCasting {
 
 	public static void main(String[] args) {
-		int salary = 1700000;
+		long salary = 1700000L;
 		byte clerkNum = 3;  
 		int num = 1500;
-		long yearlySalary = (long) salary * 12 * clerkNum * num;
+		long yearlySalary = salary * 12 * clerkNum * num;
 	
-		System.out.println("<< µð¹Ìº£³× ¿¬°£ ÀÎ°Çºñ >>");
-		System.out.println("¿ù Æò±Õ ±Þ¿© : " + String.format("%,d", salary) + "¿ø");
-		System.out.println("Á¡Æ÷ ³» Á÷¿ø ¼ö : " + String.format("%d", clerkNum) + "¸í");
-		System.out.println("Á¡Æ÷ ¼ö : " + String.format("%,d", num) + "°³\n");
-		System.out.println("¿¬°£ ÀÎ°Çºñ : " + String.format("%,d", yearlySalary) + "¿ø"); 
+		System.out.println("<< ï¿½ï¿½Ìºï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Î°Çºï¿½ >>");
+		System.out.println("ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Þ¿ï¿½ : " + String.format("%,d", salary) + "ï¿½ï¿½");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ : " + String.format("%d", clerkNum) + "ï¿½ï¿½");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ : " + String.format("%,d", num) + "ï¿½ï¿½\n");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ ï¿½Î°Çºï¿½ : " + String.format("%,d", yearlySalary) + "ï¿½ï¿½"); 
 		
 
 	}
