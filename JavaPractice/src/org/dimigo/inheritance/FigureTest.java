@@ -32,7 +32,7 @@ public class FigureTest {
 		r.printCenter();
 		System.out.println();
 		
-		System.out.println("--중심좌표 이동 (x, y축 5씩)");
+		System.out.println("-- 중심좌표 이동 (x, y축 5씩)");
 		c.moveFigure(5, 5);
 		t.moveFigure(5, 5);
 		r.moveFigure(5, 5);

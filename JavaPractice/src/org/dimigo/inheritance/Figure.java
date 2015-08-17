@@ -16,8 +16,8 @@ package org.dimigo.inheritance;
  * @version		: 1.0
  */
 public class Figure {
-	private int centerX;
-	private int centerY;
+	protected int centerX;
+	protected int centerY;
 	
 	public Figure() {
 		
