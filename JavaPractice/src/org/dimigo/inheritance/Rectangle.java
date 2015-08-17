@@ -35,7 +35,8 @@ public class Rectangle extends Figure {
 	}
 	
 	protected void printCenter() {
-		System.out.println("사각형 중심좌표 : (" + centerX + ", " + centerY + ")");
+		System.out.print("사각형 ");
+		super.printCenter();
 	}
 	
 }

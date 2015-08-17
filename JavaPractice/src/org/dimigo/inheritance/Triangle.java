@@ -35,7 +35,8 @@ public class Triangle extends Figure {
 	}
 	
 	protected void printCenter() {
-		System.out.println("삼각형 중심좌표 : (" + centerX + ", " + centerY + ")");
+		System.out.print("삼각형 ");
+		super.printCenter();
 	}
 	
 }
